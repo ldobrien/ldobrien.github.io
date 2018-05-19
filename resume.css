@@ -1,4 +1,7 @@
 
+*{
+	line-height: 1;
+}
 p {
   font-size: 20px;
   font-family: Helvetica;
@@ -10,6 +13,7 @@ p {
 .column {
     float: left;
     padding: 10px;
+    margin-bottom: 40px;
 }
 
 .left {
@@ -22,7 +26,7 @@ p {
 
 .right {
   width: 75%;
-  background-color: pink;
+  background-color: white;
 
 }
 .minih1 {
@@ -39,29 +43,55 @@ p {
 	background-color: rgb(77, 137, 255);
 
 }
+.Education {
+	font-size: 18px;
+}
+.Title {
+	font-size: 18px;
+	font-style: italic;
+}
+
+.alignright {
+	float: right;
+}
+.bolded {
+	font-weight: bold;
+}
+.unbolded {
+	font-weight: normal;
+}
+.bullets {
+	list-style-type: square;
+}
 h1 {
   font-size: 40px;
   font-family: Oxygen;
-  line-height: 20px;
+  /*line-height: 1;*/
 }
 h2 {
 	font-size: 25px;
 	font-family: Oxygen;
-	line-height: 30px;
+	font-weight: normal;
+	/*line-height: 1;*/
 }
 h3 {
 	color: rgb(77, 137, 255);
 	font-size: 25px;
+	/*line-height: 1;*/
 }
 h4{
-	font-size: 16px;
+	font-size: 20px;
+	/*line-height: 1;*/
+	font-weight: normal;
 }
 h5{
-	font-size: 14px;
+	font-size: 16px;
+	font-weight: normal;
+	/*line-height: 1;*/
 }
 ul{
 	list-style-type: none;
 	margin-top: -15px;
 	margin-left: -30px;
-
+	/*line-height: 1;*/
 }

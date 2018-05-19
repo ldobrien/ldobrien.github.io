@@ -20,7 +20,9 @@
 
 .menubar {
     list-style-type: none;
-    margin: 0;
+    /*margin: 0;*/
+    margin-left: -1;
+    margin-bottom: 0;
     padding: 0;
     overflow: hidden;
     background-color: pink;
@@ -72,7 +74,7 @@
 
 .panimage {
   position: relative;
-  height: 500px;
+  height: 780px;
   width: 100%;
   background: black url(https://cdn.stocksnap.io/img-thumbs/960w/VTTPHHRN6V.jpg);
   background-size: 150%;
