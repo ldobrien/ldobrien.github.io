@@ -15,7 +15,7 @@
 
 .widen:hover {
     width: 300px;
-    background: red;
+    /*background: red;*/
 }
 
 .menubar {
@@ -47,11 +47,11 @@
 
 .menuA:hover {
     background-color: white;
-    color: black;
+    color:  #FF1493;
 }
 
 .active {
-    background-color: red;
+    background-color:  #FF1493;
 }
 
 @keyframes panning {
