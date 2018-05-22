@@ -70,15 +70,23 @@
   200% {
     background-position: 0 0;
   }
+  /*filter: blur(2px);*/
 }
 
 .panimage {
   position: relative;
   height: 780px;
   width: 100%;
-  background: black url(https://cdn.stocksnap.io/img-thumbs/960w/VTTPHHRN6V.jpg);
-  background-size: 150%;
+  /*background: black url(https://cdn.stocksnap.io/img-thumbs/960w/VTTPHHRN6V.jpg);*/
+  background: black url("code2.png");
+  background-size: 100%;
   animation: panning 50s infinite linear;
+}
+.blur {
+   filter: blur(2px) saturate(3) hue-rotate(-0.30turn);
+}
+.noFilter {
+  filter: none;
 }
 .overlay {
   width: 100%;
