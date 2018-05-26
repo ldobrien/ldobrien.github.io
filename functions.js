@@ -18,3 +18,4 @@ setInterval(function() {
         document.getElementById("demo").innerHTML = "GRADUATED";
     }
 }, 1000);
+

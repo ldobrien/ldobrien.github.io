@@ -5,3 +5,14 @@
   margin-top:0px;
   color: #FF1493;
 }
+.page {
+	/*text-align: right;*/
+    position: fixed;
+    bottom: 60px;
+    right: 10px;
+}
+.inputField {
+	width: 150px;
+	height: 30px;
+	background-color: transparent;
+}

@@ -2,20 +2,23 @@
 <html>
 <head>
   <title>My Title</title>
-          <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" type="text/css" href="countdown.css">
         <script type="text/javascript" src="functions.js"></script>
+        <script type="text/javascript" src="key.js"></script>
 </head>
 <body>
+<div class="box pink changeColour" id="countdown"></div>
 
-<div class="box pink" id="countdown"></div>
+<div class="page">
+  <input class = "inputField" type="text" id="color" onkeypress="changeColorWhenEnter(event)" placeholder="Enter your favourite color";>
+</div>
 
 <ul class="menubar">
   <li class="menuElem"><a class="widen menuA" href="index.html">Home</a></li>
   <li class="menuElem"><a class="widen menuA" href="resume.html">Resume</a></li>
   <li class="menuElem"><a class="widen menuA active" href="Projects.html">Projects</a></li>
-<!--   <li class="menuElem"><a class="widen menuA" href="#contact">Contact</a></li>
-  <li class="menuElem"><a class="widen menuA" href="#about">About</a></li> -->
+
 </ul>
 
 </body>
