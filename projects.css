@@ -1,5 +1,5 @@
 .pink {
-	color: #FF1493;
+	color: #5F0556;
 }
 .row {
 
@@ -16,19 +16,19 @@
   grid-gap: 0px;
   margin-right: 10px;
   background-color: white;
-  color: #FF1493;;
+  color: #5F0556;
 }
 
 .box {
 	margin: 10px;
- 	background-color: #FF1493;
+ 	background-color: #5F0556;
  	color: white;
   	border-radius: 10px;
   	padding: 20px;
   	font-size: 100%;
 }
 .link {
-	color: pink;
+	color: #FFD9FC;
 }
 .title {
 	font-size: 30px;

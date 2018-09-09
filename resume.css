@@ -19,7 +19,7 @@ p {
 
 .left {
   width: 30%;
-  background-color: rgb(231, 234, 240);
+  background-color: #E1D2DF;
   margin-left: -20px;
   padding-left: 40px;
   padding-right: 40px;
@@ -41,7 +41,7 @@ p {
 	margin-bottom: 0px;
 	margin-top: 0px;
 	height: 3px;
-	background-color: rgb(77, 137, 255);
+	background-color: #5F0556;
 
 }
 .Education {
@@ -70,7 +70,7 @@ p {
 	font-weight: normal;
 }
 .blueheader {
-	color: rgb(77, 137, 255);
+	color: #5F0556;
 	font-size: 25px;
 	font-weight: bold;
 	margin-top: 16px;
